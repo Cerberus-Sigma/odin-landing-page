@@ -34,3 +34,8 @@ body{
     align-items: center;
     margin-left: 50%;
 }
+
+.section1{
+    background-color: #1f2937;
+    height: 500px;
+}
