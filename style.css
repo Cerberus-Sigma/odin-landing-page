@@ -69,9 +69,29 @@ body{
 
 .s1image{
     display: flex;
-    align-items: right;
+    align-items: center;
     size: 250px;
     width: 250px;
     height: auto;
     flex-direction: row;
+}
+
+.section2{
+    background-color: white;
+    height: 500px;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.section4{
+    background-color: white;
+    height: 500px;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 75px;
 }
