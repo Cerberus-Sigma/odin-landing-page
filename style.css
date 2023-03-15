@@ -38,4 +38,38 @@ body{
 .section1{
     background-color: #1f2937;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.s1heading{
+    color: #f9faf8;
+    font-size: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.s1para{
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.s1button{
+    height: 50px;
+    width: 75px;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.s1image{
+    display: flex;
+    align-items: right;
+    width: 250px;
+    height: auto;
 }
