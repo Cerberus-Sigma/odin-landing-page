@@ -140,9 +140,28 @@ body{
     margin-right: 0;
   }  
 
-.section3{
+  .section3 {
     background-color: #E5E7EB;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.attribution {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1F2937;
+    font-style: normal;
 }
 
 .section4{
