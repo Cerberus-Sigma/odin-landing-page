@@ -82,6 +82,7 @@ body{
   .s1button {
     height: 50px;
     width: 75px;
+    color: white;
     background-color: #3882F6;
     border-color: #3882F6;
     border-radius: 10px;
@@ -99,7 +100,6 @@ body{
   width: 500px;
   object-fit: contain;
 }
-
  
 .section2 {
     background-color: white;
@@ -110,42 +110,35 @@ body{
     align-items: center;
   }
   
-  .section2-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-  }
-  
-  .section2-heading {
+  .s2header {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin-bottom: 50px;
   }
   
-  .section2-content {
+  .s2boxes {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 900px;
-  }
-  
-  .box {
-    width: calc((100% - 300px) / 4);
-    height: 200px;
-    border: 2px solid #3882F6;
-    border-radius: 10px;
-  }
-  
-  .box:first-child {
+    max-width: 1000px;
     margin-left: 150px;
-  }
-  
-  .box:last-child {
     margin-right: 150px;
   }
   
+  .s2box {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    margin-right: 25px;
+  }
+  
+  .s2box:last-child {
+    margin-right: 0;
+  }  
 
 .section3{
     background-color: #E5E7EB;
