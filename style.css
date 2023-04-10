@@ -80,8 +80,8 @@ body{
   }
   
   .s1button {
-    height: 50px;
-    width: 75px;
+    height: 35px;
+    width: 150px;
     color: white;
     background-color: #3882F6;
     border-color: #3882F6;
@@ -89,6 +89,7 @@ body{
     align-self: center;
     margin-left: 150px;
     margin-top: 20px;
+    font-weight: 800;
   }
   
 
